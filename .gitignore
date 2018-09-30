@@ -6,7 +6,7 @@ project.lock.json
 
 # Visual Studio Code
 .vscode
-
+.history
 # User-specific files
 *.suo
 *.user
