@@ -27,6 +27,7 @@ namespace exercicio_3
     public void ConfigureServices(IServiceCollection services)
     {
       services.AddSingleton<IConvertTemperature>(new ConvertTemperature());
+      services.AddSingleton<IHealth>(new CheckHealth());
       services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
     }
 
