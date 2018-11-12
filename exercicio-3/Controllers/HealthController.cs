@@ -22,6 +22,7 @@ namespace exercicio_3.Controllers
     [HttpGet()]
     public ActionResult<string> pressure()
     {
+
       var sistolica = (new Random()).Next(1, 130);
       var diastolica = (new Random()).Next(1, 130);
 

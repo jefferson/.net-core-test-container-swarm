@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace exercicio_3.services
+namespace consumer_aws_iot
 {
   public class CheckHealth : IHealth
   {
