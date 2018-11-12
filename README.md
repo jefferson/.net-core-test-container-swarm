@@ -13,7 +13,7 @@ Para configurar a integração com o AWS IOT visite primeito o link abaixo para 
 - unitTest: Teste unitário da aplicação web, incluindo as classes de teste de monitoramento de pressão
 - exercicio-3: Exercicio 3 do curso de pós graduação
 
-### Execucação
+### Execução
 
 Este projeto foi desenvolvido utilizando .NET CORE, portanto para executar basta executar os comandos abaixos nos respectivos dieretório.
 
