@@ -1,9 +1,9 @@
 # .net-core-test-container-swarm
-Teste de aplicação .net core em containers e utilizando o swarm para criar várias instâncias incluindo integração com AWS IOT
+Teste de aplicação .net core em containers. Utilizando o docker, swarm, k8s, para criar várias instâncias incluindo integração com AWS IOT.
 
 ### Configuração
 
-Para configurar o projeto correntamente visite primeito o link abaixo para mais instruções sobre como configurar o awsiot:
+Para configurar a integração com o AWS IOT visite primeito o link abaixo para mais instruções sobre como configurar:
 
 - [AWS Samples IOT .Net](https://github.com/aws-samples/iot-dotnet-publisher-consumer)
 
@@ -15,9 +15,14 @@ Para configurar o projeto correntamente visite primeito o link abaixo para mais 
 
 ### Execucação
 
-Este projeto foi desenvolvido utilizando .NET CORE, portanto para executar basta executar os comandos abaixos nos respectivos dieretório:
+Este projeto foi desenvolvido utilizando .NET CORE, portanto para executar basta executar os comandos abaixos nos respectivos dieretório.
+
+Para visualizar a integração é necessário executar o projeto `simulador-aws-iot` e `consumer-aws-iot`, ambos estão uitlizando a mesma fila no MQTT para consumir e enviar dados, no mesmo tópico.
 
 Primeiramente restauramos as dependências do projeto:
+
+>Navegue nos diretórios `simulador-aws-iot` e `consumer-aws-iot` e execute os comandos abaixos:
+
 ```
 dotnet restore
 ```
